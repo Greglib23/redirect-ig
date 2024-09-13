@@ -8,14 +8,15 @@
 </head>
 
 <body>
-  <p>Serás redirigido en 3 segundos. Si no, haz clic <a href="instagram://" id="butt">aquí</a>.
+  <p>Serás redirigido en 3 segundos. Si no, haz clic <a href="https://instagram.com/cristianisaiasm" target="_blank"
+      id="butt">aquí</a>.
   </p>
   <script>
     const button = document.getElementById("butt");
     window.location.href = 'instagram://user?username=cristianisaiasm'
     console.log(button)
     setTimeout(() => {
-      button.click
+      button.click()
     }, 5000);
 
   </script>
