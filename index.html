@@ -8,12 +8,15 @@
 </head>
 
 <body>
-  <p>Serás redirigido en 3 segundos. Si no, haz clic <a href="www.instagram.com/cristianisaiasm" id="butt">aquí</a>.
+  <p>Serás redirigido en 3 segundos. Si no, haz clic <a href="//www.instagram.com/cristianisaiasm" id="butt">aquí</a>.
   </p>
   <script>
     const button = document.getElementById("butt");
     console.log(button)
-    button.click()
+    setTimeout(() => {
+      button.click()
+    }, 5000);
+
   </script>
 </body>
 
